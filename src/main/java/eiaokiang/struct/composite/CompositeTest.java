@@ -7,7 +7,7 @@ package eiaokiang.struct.composite;
  */
 
 /**
- * 组合模式（统一操作，层级/树形管理）(未完成)
+ * 组合模式（统一操作，层级/树形管理）(未理解)
  */
 public class CompositeTest {
 
@@ -20,7 +20,7 @@ public class CompositeTest {
         ls1.addLowShop(xp2);
         ls1.addLowShop(cq2);
 
-        System.out.println(ls1.getChild("2级代理-xp"));
+        System.out.println(ls1.getChild("2级代理-xp").getName());
 
 
     }

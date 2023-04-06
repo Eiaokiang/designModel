@@ -58,7 +58,7 @@ class FirstLevelShop extends ExpansionBaseOperateClass {
     @Override
     public ExpansionBaseOperateClass getChild(String name) {
         for (ExpansionBaseOperateClass composite : composites) {
-            if (composite.getChild(name) != null){
+            if (composite.getName().equals(name)){
                 return composite;
             }
         }
@@ -88,7 +88,7 @@ class SecondLevelShop extends ExpansionBaseOperateClass {
     @Override
     public ExpansionBaseOperateClass getChild(String name) {
         for (ExpansionBaseOperateClass composite : composites) {
-            if (composite.getChild(name) != null){
+            if (composite.getName().equals(name)){
                 return composite;
             }
         }
