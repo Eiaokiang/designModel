@@ -8,7 +8,7 @@ package eiaokiang.struct.wrapper;
 
 /**
  * 适配器模式 （dispatcher）
- * 使用场景：对一个正常运转但功能不足的类做扩展
+ * 使用场景：为一个正常运转但功能不足的类做扩展
  * 比如以下70v就不要把电池改成5v了，而是使用适配器转换，保证了70v电池类不修改
  */
 public class WrapperTest {

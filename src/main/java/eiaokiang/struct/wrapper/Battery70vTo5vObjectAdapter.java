@@ -7,7 +7,7 @@ package eiaokiang.struct.wrapper;
  */
 
 /**
- * 类适配器（单继承）
+ * 对象适配器（单继承）
  */
 public class Battery70vTo5vObjectAdapter implements Output5v{
 
