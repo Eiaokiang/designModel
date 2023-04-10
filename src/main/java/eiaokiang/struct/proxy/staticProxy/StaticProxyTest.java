@@ -8,6 +8,7 @@ package eiaokiang.struct.proxy.staticProxy;
 
 /**
  * 静态代理(在编译期就确定了代理对象yq，通过implement)
+ * 全权负责被代理对象的操作
  */
 public class StaticProxyTest {
 

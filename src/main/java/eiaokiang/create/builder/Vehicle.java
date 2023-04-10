@@ -5,7 +5,7 @@ package eiaokiang.create.builder;
  * @Description:
  * @Date: Created in 16:43 2023/4/4
  */
-public class VehicleChainBuild {
+public class Vehicle {
 
     @Override
     public String toString() {
@@ -30,7 +30,7 @@ public class VehicleChainBuild {
     private String frame;
 
 
-    private VehicleChainBuild(VehicleBuilder builder){
+    private Vehicle(VehicleBuilder builder){
         this.wheel = builder.wheel;
         this.frame = builder.frame;
         this.trunk = builder.trunk;
@@ -69,8 +69,8 @@ public class VehicleChainBuild {
             return this;
         }
 
-        public VehicleChainBuild build(){
-            return new VehicleChainBuild(this);
+        public Vehicle build(){
+            return new Vehicle(this);
         }
     }
 

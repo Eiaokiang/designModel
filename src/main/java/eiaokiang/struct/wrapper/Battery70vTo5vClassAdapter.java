@@ -11,6 +11,7 @@ package eiaokiang.struct.wrapper;
  */
 public class Battery70vTo5vClassAdapter extends Battery70v implements Output5v{
 
+    @Override
     public int output5v() {
         int v70 = output70v();
         return v70 / 14;

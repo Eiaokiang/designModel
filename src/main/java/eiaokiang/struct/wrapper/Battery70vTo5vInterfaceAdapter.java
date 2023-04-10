@@ -17,6 +17,7 @@ public abstract class Battery70vTo5vInterfaceAdapter implements Output5v {
         this.battery70v = battery70v;
     }
 
+    @Override
     public int output5v() {
         return 0;
     }

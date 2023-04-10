@@ -11,6 +11,7 @@ package eiaokiang.struct.decorator;
  */
 public class OriginVehicle implements IVehicle{
 
+    @Override
     public void createVehicle() {
         System.out.println("创建原厂车型");
     }

@@ -17,6 +17,7 @@ public class Battery70vTo5vObjectAdapter implements Output5v{
         this.battery70v = battery70v;
     }
 
+    @Override
     public int output5v() {
         int v70 = battery70v.output70v();
         return v70 / 14;

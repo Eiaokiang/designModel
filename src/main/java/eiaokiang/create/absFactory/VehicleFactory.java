@@ -14,6 +14,7 @@ public interface VehicleFactory {
 
 class ShenZhenVehicleFactory implements VehicleFactory {
 
+    @Override
     public Vehicle getVehicle(String name) {
         Vehicle vehicle = null;
         if (name.equals("TaiLinEm")) {
@@ -31,6 +32,7 @@ class ShenZhenVehicleFactory implements VehicleFactory {
 
 class BeiJingVehicleFactory implements VehicleFactory {
 
+    @Override
     public Vehicle getVehicle(String name) {
         Vehicle vehicle = null;
         if (name.equals("TaiLinEm")) {
@@ -48,6 +50,7 @@ class BeiJingVehicleFactory implements VehicleFactory {
 
 class ShanghaiVehicleFactory implements VehicleFactory {
 
+    @Override
     public Vehicle getVehicle(String name) {
         Vehicle vehicle = null;
         if (name.equals("HuaYan")) {

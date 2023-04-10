@@ -15,7 +15,7 @@ public class BuilderTest {
 
     public static void main(String[] args) {
         //链式创建
-        VehicleChainBuild build = new VehicleChainBuild.VehicleBuilder("Yadi", "MD2").build();
+        Vehicle build = new Vehicle.VehicleBuilder("Yadi", "MD2").build();
         System.out.println(build.toString());
     }
 

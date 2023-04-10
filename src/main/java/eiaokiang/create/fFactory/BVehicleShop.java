@@ -18,7 +18,7 @@ public class BVehicleShop {
     //}
 
 
-    //使用工厂方法
+    //使用工厂方法  面向的不再是具体的工厂，而是一个工厂抽象
     public void sale(String vehicleName,VechicleFactory vechicleFactory){
         System.out.println("BVehicleShop sale a "+ vechicleFactory.getVechicle(vehicleName).name);
     }

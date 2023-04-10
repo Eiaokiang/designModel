@@ -5,6 +5,10 @@ package eiaokiang.create.fFactory;
  * @Description:
  * @Date: Created in 15:45 2023/4/3
  */
+
+/**
+ * 把各个工厂抽象出来了
+ */
 public abstract class VechicleFactory {
 
     public abstract Vehicle getVechicle(String vechicleName);

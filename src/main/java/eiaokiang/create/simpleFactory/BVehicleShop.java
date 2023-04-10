@@ -17,7 +17,7 @@ public class BVehicleShop {
     //}
 
 
-    //使用工厂方法
+    //到具体工厂类去创建
     public void sale(String vehicleName){
         System.out.println("BVehicleShop sale a "+ YaDiVehicleFactory.getVehicle(vehicleName).name);
     }

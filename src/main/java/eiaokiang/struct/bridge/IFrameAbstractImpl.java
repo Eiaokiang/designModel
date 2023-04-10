@@ -21,6 +21,7 @@ public interface IFrameAbstractImpl {
  */
 class LightFrameImpl implements IFrameAbstractImpl{
 
+    @Override
     public String frameType() {
         return "轻车架";
     }
@@ -32,6 +33,7 @@ class LightFrameImpl implements IFrameAbstractImpl{
  */
 class SteelFrameImpl implements IFrameAbstractImpl{
 
+    @Override
     public String frameType() {
         return "钢车架";
     }
@@ -43,6 +45,7 @@ class SteelFrameImpl implements IFrameAbstractImpl{
  */
 class BigFrameImpl implements IFrameAbstractImpl{
 
+    @Override
     public String frameType() {
         return "大车架";
     }

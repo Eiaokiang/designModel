@@ -21,6 +21,7 @@ public interface IBatteryAbstractImpl {
  * 抽象具体实现
  */
 class Battery48vImpl implements IBatteryAbstractImpl {
+    @Override
     public String outputV() {
         return "48V";
     }
@@ -31,6 +32,7 @@ class Battery48vImpl implements IBatteryAbstractImpl {
  * 抽象具体实现
  */
 class Battery60vImpl implements IBatteryAbstractImpl {
+    @Override
     public String outputV() {
         return "60V";
     }
@@ -41,6 +43,7 @@ class Battery60vImpl implements IBatteryAbstractImpl {
  * 抽象具体实现
  */
 class Battery72vImpl implements IBatteryAbstractImpl {
+    @Override
     public String outputV() {
         return "72V";
     }
