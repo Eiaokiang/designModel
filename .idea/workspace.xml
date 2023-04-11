@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfe19a6d-3057-43f8-9240-a3f9e9342f91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/CommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/iterator/IteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/iterator/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/iterator/VehicleIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/mediator/MediatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/mediator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/CareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/MementoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/OrderMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/OrderRecorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/observer/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ContractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ResponsibilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/PassStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/StrategyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/absFactory/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/create/absFactory/VehicleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/VehicleBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/VehicleChainBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/fFactory/BVehicleShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/create/fFactory/BVehicleShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/fFactory/VechicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/create/fFactory/VechicleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/create/simpleFactory/BVehicleShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/create/simpleFactory/BVehicleShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/bridge/IBatteryAbstractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/bridge/IBatteryAbstractImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/bridge/IFrameAbstractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/bridge/IFrameAbstractImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/decorator/OriginVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/decorator/OriginVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/decorator/VehicleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/decorator/VehicleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/proxy/staticProxy/StaticProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/proxy/staticProxy/StaticProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/wrapper/Battery70vTo5vClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/wrapper/Battery70vTo5vClassAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/wrapper/Battery70vTo5vInterfaceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/wrapper/Battery70vTo5vInterfaceAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/wrapper/Battery70vTo5vObjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/eiaokiang/struct/wrapper/Battery70vTo5vObjectAdapter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,13 +30,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/MementoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="324">
+              <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/StrategyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ResponsibilityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="28" selection-start-line="22" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ContractHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+              <folding>
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/PassStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding>
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,98 +161,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/mediator/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/Receiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/Invoker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/command/Command.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -244,12 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/flyweight/AbscartTestVehicleFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/flyweight/AbstrcartTestVehicleFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/flyweight/ITestVehicleFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/flyweight/TestVehicleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/flyweight/ITestVehicle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/proxy/staticProxy/IDailyDecide.java" />
         <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/proxy/staticProxy/StaticProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/proxy/staticProxy/BossProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/eiaokiang/struct/proxy/staticProxy/Boss.java" />
@@ -295,6 +230,12 @@
         <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/OrderMemento.java" />
         <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/OrderRecorder.java" />
         <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/MementoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/StateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/state/StateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/StrategyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/PassStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ContractHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ResponsibilityTest.java" />
       </list>
     </option>
   </component>
@@ -378,7 +319,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="eiaokiang" type="462c0819:PsiDirectoryNode" />
               <item name="behavior" type="462c0819:PsiDirectoryNode" />
-              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="responsibility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eiaokiang" type="462c0819:PsiDirectoryNode" />
+              <item name="behavior" type="462c0819:PsiDirectoryNode" />
+              <item name="responsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="ContractHandler.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -434,33 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MementoTest">
-    <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eiaokiang.behavior.command.CommandTest" />
-      <module name="designModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eiaokiang.behavior.command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eiaokiang.behavior.iterator.IteratorTest" />
-      <module name="designModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eiaokiang.behavior.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ResponsibilityTest">
     <configuration name="MediatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eiaokiang.behavior.mediator.MediatorTest" />
       <module name="designModel" />
@@ -500,13 +426,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResponsibilityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eiaokiang.behavior.responsibility.ResponsibilityTest" />
+      <module name="designModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eiaokiang.behavior.responsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eiaokiang.behavior.strategy.StrategyTest" />
+      <module name="designModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eiaokiang.behavior.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResponsibilityTest" />
+        <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.MementoTest" />
         <item itemvalue="Application.MediatorTest" />
         <item itemvalue="Application.ObserverTest" />
-        <item itemvalue="Application.IteratorTest" />
-        <item itemvalue="Application.CommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +474,7 @@
       <updated>1680489562136</updated>
       <workItem from="1680489563434" duration="104000" />
       <workItem from="1680489685132" duration="69659000" />
-      <workItem from="1681090436863" duration="18622000" />
+      <workItem from="1681090436863" duration="29454000" />
     </task>
     <task id="LOCAL-00001" summary="单例，简单工厂，工厂方法，抽象工厂">
       <created>1680515776527</created>
@@ -566,11 +518,25 @@
       <option name="project" value="LOCAL" />
       <updated>1680777376053</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="命令，迭代器，中介者，备忘录，观察者">
+      <created>1681116924758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681116924758</updated>
+    </task>
+    <task id="LOCAL-00008" summary="命令，迭代器，中介者，备忘录，观察者">
+      <created>1681116942964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681116942964</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88385000" />
+    <option name="totallyTimeSpent" value="99217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -623,7 +589,8 @@
     <MESSAGE value="类适配器，对象适配器，接口适配器" />
     <MESSAGE value="装饰者模式，桥接模式，组合模式（未完成）" />
     <MESSAGE value="享元，外观" />
-    <option name="LAST_COMMIT_MESSAGE" value="享元，外观" />
+    <MESSAGE value="命令，迭代器，中介者，备忘录，观察者" />
+    <option name="LAST_COMMIT_MESSAGE" value="命令，迭代器，中介者，备忘录，观察者" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,47 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/create/prototype/Veichcle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/create/prototype/VeichcleShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/create/prototype/ProtoTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/VehicleBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/create/builder/BuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1121,13 +1047,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/state/StateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/memento/MementoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="324">
+          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/PassStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/strategy/StrategyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ContractHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eiaokiang/behavior/responsibility/ResponsibilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="28" selection-start-line="22" selection-end-line="23" />
         </state>
       </provider>
     </entry>
